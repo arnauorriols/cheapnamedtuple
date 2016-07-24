@@ -2,7 +2,7 @@ import setuptools
 
 
 setuptools.setup(name='cheapnamedtuple',
-                 version="1.0.3",
+                 version="1.1.0",
                  description='Faster reimplementation of stdlib collections.namedtuple',
                  long_description=open('README.md').read().strip(),
                  author='Arnau Orriols',

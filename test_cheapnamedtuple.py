@@ -14,8 +14,8 @@ import sys
 import unittest
 import doctest
 
-import metanamedtuple as cheapnamedtuple
-from metanamedtuple import namedtuple
+import cheapnamedtuple
+from cheapnamedtuple import cheapnamedtuple as namedtuple
 
 
 TestNT = namedtuple('TestNT', 'x y z')    # type used for pickle tests
